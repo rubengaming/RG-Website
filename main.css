@@ -1,0 +1,117 @@
+body{
+
+    font-family: 'Roboto', sans-serif;
+    /*background-image: url("../media/achtergrond.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    margin: 0;
+    
+ 
+ }
+ 
+ h1 {
+          
+     padding: 10px; /* ruimte om  de inhoud van het blok */
+     color: rgb(256, 256, 256); /* tekst kleur */
+     text-align: center
+ }    
+ 
+  p {
+      
+     padding: 10px; /* ruimte om  de inhoud van het blok */
+      /* border: 1px solid rgb(8, 58, 138); lijntje eromheen */
+     /*background-color: rgb(33, 54, 0); /* achtergrond kleur */
+     color: rgb(0, 0, 0); /* tekst kleur */   
+  }
+   
+ 
+  div.header{
+      width: 100%;
+      text-align: center;
+      background-color: #252525;
+      color: #cccccc;
+      padding:10px;
+      font-size: 16pt
+  }
+ 
+ 
+  div.header ul {
+      display: inline-block;
+  }
+ div.header li {
+      display: inline-block;
+      margin: 0 10px 0 10px; /* boven, rechts, onder, rechts */
+  }
+  div.header a {
+    color: #cccccc;
+    text-decoration: none;
+  }
+ 
+  div.header a:hover {
+     border-bottom: 1px solid #990044;
+  }
+ 
+  section{
+    margin: 10px 0 10px 0;
+    text-align: center;
+    border: 1px solid #cccccc;
+    padding: 20px; 
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap;   
+  }
+ 
+  .item {
+     margin: 10px;
+     border: 1px solid;
+     border-radius: 5px;
+     width:400px;
+  }
+ 
+  .item > .title{
+     font-size: 40px;
+     color: #978979;
+     font-weight: bold;
+  }
+ 
+  .item > .content{ 
+     display: flex;
+     flex-direction: row; 
+  }
+ 
+  .item > .content.reverse { 
+    flex-wrap: wrap-reverse;
+  }
+ 
+  .item > .content > .picture{ 
+     width: 150px; height: 100px;      
+  }
+  
+ 
+  .item > .content > .description {    
+       text-align: left;
+       padding-left: 5px;
+       padding-top: 15;
+       overflow: hidden;
+       width: 250px;        
+ 
+  }
+ 
+ 
+ 
+ 
+  div.footer{  
+     padding-top: 12px; /* ruimte om  de inhoud van het blok */
+     padding-bottom: 15px; /* ruimte om  de inhoud van het blok */
+     border: 1px solid rgb(8, 58, 138); /* lijntje eromheen */
+     background-color: rgb(100, 100, 100); /* achtergrond kleur */
+     color: rgb(0, 0, 0); /* tekst kleur */
+     text-align: center;
+  }
+ 
+  
+  #viewport
+  {
+      width: 100%;  
+  }

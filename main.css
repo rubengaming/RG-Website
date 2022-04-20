@@ -6,7 +6,7 @@ body{
     background-attachment: fixed;
     background-position: center; */
     margin: 0;
-    
+    background-size: cover;
  
  }
  
@@ -47,6 +47,12 @@ body{
     color: #cccccc;
     text-decoration: none;
   }
+  
+  /* div.instagram {
+     padding: 10px;
+     border: 1px solid black;
+     width: 50%;
+  } */
  
   div.header a:hover {
      border-bottom: 1px solid #990044;
@@ -97,10 +103,7 @@ body{
        width: 250px;        
  
   }
- 
- 
- 
- 
+
   div.footer{  
      padding-top: 12px; /* ruimte om  de inhoud van het blok */
      padding-bottom: 15px; /* ruimte om  de inhoud van het blok */
